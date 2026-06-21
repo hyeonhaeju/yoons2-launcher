@@ -1,0 +1,524 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "yoons2-setup-1.21.4",
+      "name": "윤생서버2",
+      "description": "윤생서버2 설정 파일",
+      "icon": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.0",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944012,
+            "MD5": "54ae672be359aec0a36411e60885634c",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/lib/net/fabricmc/fabric-loader/0.18.0/fabric-loader-0.18.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.18.0",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "87a67ce716c6d40bd98dc968ae9c0c40",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/versions/1.21.4-fabric-0.18.0/1.21.4-fabric-0.18.0.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:badoptimizations:2.3.1@jar",
+          "name": "BadOptimizations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 274126,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/BadOptimizations-2.3.1-1.21.2-21.5.jar",
+            "MD5": "fe6e7912e46f2b4a52ace894ae0b1f8e"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:21.4.41@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 599615,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/balm-fabric-1.21.4-21.4.41.jar",
+            "MD5": "111978e3b35ab07a86bcb8bde78d6c1c"
+          }
+        },
+        {
+          "id": "io.kowaman:betterbold:1.2.0@jar",
+          "name": "BetterBold",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5786,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/BetterBold-1.2.0.jar",
+            "MD5": "5dada98875a1e918387673ff0d7d87b6"
+          }
+        },
+        {
+          "id": "com.ishland:c2me:0.3.2+alpha.0.44+1.21.4@jar",
+          "name": "Concurrent Chunk Management Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4665464,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/c2me-fabric-mc1.21.4-0.3.2+alpha.0.44.jar",
+            "MD5": "fc5ea353c7cd6a3f3000c20b4406fd64"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
+          "name": "Cloth Config v17",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1152857,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/cloth-config-17.0.144-fabric.jar",
+            "MD5": "07b7d5bc15bdc7387cf8890d0c460b54"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.21.4@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1001061,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/continuity-3.0.0+1.21.4.jar",
+            "MD5": "cb5480ac95db653d5376ec1b41797b56"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:21.4.6@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 98235,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/defaultoptions-fabric-1.21.4-21.4.6.jar",
+            "MD5": "9ed0bb66374791980aa017b8e2d2d240"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.2.4@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 571566,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/entity_model_features-3.2.4-1.21.4-fabric.jar",
+            "MD5": "4c634c37cc4a25b8841325c8e1a9d3a2"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.1@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 748896,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/entity_texture_features_1.21.4-fabric-7.1.jar",
+            "MD5": "1723923e2c50bfdd4efd0cd5671551b7"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.3@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 472605,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/entityculling-fabric-1.9.3-mc1.21.4.jar",
+            "MD5": "abdc1c4ce547d3839da7004031b63a22"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149128,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.12+kotlin.2.4.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8076848,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar",
+            "MD5": "dff437aac8aae6eb76ae9db6b6ea9cb0"
+          }
+        },
+        {
+          "id": "me.fallenbreath:fastipping:1.0.7@jar",
+          "name": "Fast IP Ping",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10585,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/fast-ip-ping-v1.0.7-mc1.21.4-fabric.jar",
+            "MD5": "c0ea879f6730c4f22c32a3ee729f1156"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.1.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 107026,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/ferritecore-7.1.1-fabric.jar",
+            "MD5": "cddea62080b823c0c55f72408a0c3ffb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.8.2+1.21.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 224777,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/ImmediatelyFast-Fabric-1.8.2+1.21.4.jar",
+            "MD5": "b92cb33742351dda9bc136960a9c4f1a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3514383,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "8b092f8cca0a96d80eb8eeea24b5ebfd"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.6+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 655990,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.6+mc1.21.3.jar",
+            "MD5": "c95329994b4cc793ec412462543c4f67"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797555,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "MD5": "7a3a807eed9c4868fbe14cecd8bb082d"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.3+mc1.21.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 436498,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/modernfix-fabric-5.20.3+mc1.21.4.jar",
+            "MD5": "1bee2326edcced182b86154e44810971"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:13.0.4@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1050885,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/modmenu-13.0.4.jar",
+            "MD5": "79856b4ad839616c9b4318952ba44fd1"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.2.10@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 349756,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/moreculling-fabric-1.21.4-1.2.10.jar",
+            "MD5": "4d4f463130f91324c42ccae8e2bac42c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.5.2+1.21.3@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 237288,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/placeholder-api-2.5.2+1.21.3.jar",
+            "MD5": "80b2dea3d99621d2b76db30a0582665d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "ca.spottedleaf.starlight:scalablelux:0.1.2+fabric.87468e8@jar",
+          "name": "ScalableLux",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 182479,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/ScalableLux-0.1.2+fabric.87468e8-all.jar",
+            "MD5": "91384f7f179ae02966ea3ce59c11ab58"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.1+mc1.21.4@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 360180,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/sodium-extra-fabric-0.6.1+mc1.21.4.jar",
+            "MD5": "4d43b252c771523c6e0a219e9eadd63b"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "com.sollaplayer:sollaplayer:2.0.0@jar",
+          "name": "SolLaPlayer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36521,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/sollaplayer-2.0.0.jar",
+            "MD5": "6d1ba5811772208fec4742b248ccb714"
+          }
+        },
+        {
+          "id": "com.ishland:vmp:0.2.0+beta.7.192+1.21.4@jar",
+          "name": "Very Many Players",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 424449,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/vmp-fabric-mc1.21.4-0.2.0+beta.7.192-all.jar",
+            "MD5": "2fcbada747cec8c4a6a90f10db65cc73"
+          }
+        },
+        {
+          "id": "org.watermedia.loaders:watermedia:2.1.37@jar",
+          "name": "WaterMedia",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 37046674,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/watermedia-2.1.37.jar",
+            "MD5": "4a09ad3ea22ad258802605b8aa929bbd"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1130824,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/yet_another_config_lib_v3-3.8.2+1.21.4-fabric.jar",
+            "MD5": "892f173cfd0619203438efcc9dcf0014"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.15.2+1.21.5@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 872894,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/fabricmods/required/zoomify-2.15.2+1.21.5.jar",
+            "MD5": "2094cdfca3b0f225bd94710eb1a4e593"
+          }
+        },
+        {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3141,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/config/defaultoptions/keybindings.txt",
+            "MD5": "960ee84bea4611c604f68f0e13976a97",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2733,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/config/defaultoptions/options.txt",
+            "MD5": "b983e31567ff32aee2edf0b9e82c9396",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "journeymap.fullmap.config",
+          "name": "journeymap.fullmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1302,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/journeymap/config/6.0/journeymap.fullmap.config",
+            "MD5": "f8fb04492206c56739d2a7892f37be4f",
+            "path": "journeymap/config/6.0/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap.config",
+          "name": "journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 2302,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/journeymap/config/6.0/journeymap.minimap.config",
+            "MD5": "6399965109f06c1295edf0ae4024acb0",
+            "path": "journeymap/config/6.0/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap2.config",
+          "name": "journeymap.minimap2.config",
+          "type": "File",
+          "artifact": {
+            "size": 2303,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/journeymap/config/6.0/journeymap.minimap2.config",
+            "MD5": "3b06b751dfadab8f61100348c6234c4a",
+            "path": "journeymap/config/6.0/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4한글.zip",
+          "name": "ComplementaryUnbound_r5.4한글.zip",
+          "type": "File",
+          "artifact": {
+            "size": 455047,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.4%ED%95%9C%EA%B8%80.zip",
+            "MD5": "267ae2ba18931308c5966d91dd171302",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4한글.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4한글.zip.txt",
+          "name": "ComplementaryUnbound_r5.4한글.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1648,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.4%ED%95%9C%EA%B8%80.zip.txt",
+            "MD5": "d1dd8fd1593cb82df255d8505490aace",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4한글.zip.txt"
+          }
+        },
+        {
+          "id": "photon_v1.2(번역본).zip",
+          "name": "photon_v1.2(번역본).zip",
+          "type": "File",
+          "artifact": {
+            "size": 3925567,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/shaderpacks/photon_v1.2(%EB%B2%88%EC%97%AD%EB%B3%B8).zip",
+            "MD5": "4ee45091ec10e7c594ff186487855e5e",
+            "path": "shaderpacks/photon_v1.2(번역본).zip"
+          }
+        }
+      ]
+    }
+  ]
+}

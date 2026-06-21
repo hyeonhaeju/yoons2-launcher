@@ -1,0 +1,16 @@
+{
+  "$schema": "file:///C:/Users/hyeon/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EB%82%B4%ED%8C%8C%EC%9D%BC/%EB%9F%B0%EC%B2%98%EC%A0%9C%EC%9E%91/Proto-setup/NebulaRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "윤생서버2",
+    "description": "윤생서버2 설정 파일",
+    "icon": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/icon.png",
+    "address": "localhost:25565",
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.18.0"
+  },
+  "untrackedFiles": []
+}
