@@ -5,7 +5,7 @@
     "name": "윤생서버2",
     "description": "윤생서버2 설정 파일",
     "icon": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/icon.png",
-    "address": "localhost:25565",
+    "address": "partners-creative.gl.joinmc.link",
     "mainServer": true,
     "autoconnect": true
   },

@@ -13,7 +13,7 @@
       "description": "윤생서버2 설정 파일",
       "icon": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/icon.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "partners-creative.gl.joinmc.link",
       "minecraftVersion": "1.21.4",
       "mainServer": true,
       "autoconnect": true,
