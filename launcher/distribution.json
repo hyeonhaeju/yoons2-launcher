@@ -5645,6 +5645,17 @@
           }
         },
         {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 3130,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/yoons2-launcher/main/launcher/servers/yoons2-setup-1.21.4/files/servers.dat",
+            "MD5": "35354cf4acf5a9df6cd1c654478fbdb0",
+            "path": "servers.dat"
+          }
+        },
+        {
           "id": "ComplementaryUnbound_r5.4한글.zip",
           "name": "ComplementaryUnbound_r5.4한글.zip",
           "type": "File",
